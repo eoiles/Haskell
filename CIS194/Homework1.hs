@@ -18,4 +18,4 @@ validate x = sumDigits (doubleEveryOther $ toDigits x) `mod` 10 == 0
 main :: IO ()
 main = do
   print (validate 4012888888881882)
-        
+          
